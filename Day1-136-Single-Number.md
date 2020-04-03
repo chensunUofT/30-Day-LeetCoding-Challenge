@@ -1,3 +1,5 @@
+<https://leetcode.com/problems/single-number/>
+
 If we do a [bit-wise XOR operation](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) on the whole array, every pair of duplicate elements is cancelled since `x XOR x == 0` for every number x. Therefore, the result of the XOR operation is the only single number.
 
 ```python
