@@ -1,6 +1,6 @@
 <https://leetcode.com/problems/group-anagrams/>
 
-We hope to use a dict/Hashmap data stucture where the keys are the "count/combination" of letters for each word and the values are the grouped anagrams. Note that none of *set*, *Counter* or *list* is hashable, I come up with the idea of using an vector (actually a tuple in this problem) to represent the letter apperance in each word.
+We hope to use a dict/Hashmap data structure where the keys are the "count/combination" of letters for each word and the values are the grouped anagrams. Note that none of *set*, *Counter* or *list* is hashable, I come up with the idea of using an vector (actually a tuple in this problem) to represent the letter appearance in each word.
 
 ```python
 from collections import Counter
