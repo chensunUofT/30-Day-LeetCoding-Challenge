@@ -1,6 +1,6 @@
 <https://leetcode.com/problems/middle-of-the-linked-list/>
 
-Use `fast` and `slow` pointers to move along the linked list with the speed of two nodes and one node per step. When the `fast` pointer reaches the end of the linked list, the `slow` pointer is approxiamately at the middle depending on whether the length of the linked list is odd or even.
+Use `fast` and `slow` pointers to move along the linked list with the speed of two nodes and one node per step. When the `fast` pointer reaches the end of the linked list, the `slow` pointer is approximately at the middle depending on whether the length of the linked list is odd or even.
 
 ```python
 # Definition for singly-linked list.
