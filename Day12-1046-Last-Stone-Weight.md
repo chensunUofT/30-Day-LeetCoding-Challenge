@@ -1,6 +1,6 @@
 <https://leetcode.com/problems/last-stone-weight/>
 
-Use a heap to store the opposite values of all the orginal elements so that we can use `pop` operation to get the maximum value instead of the minimum.
+Use a heap to store the opposite values of all the original elements so that we can use `pop` operation to get the maximum value instead of the minimum.
 
 ```python
 class Solution:
