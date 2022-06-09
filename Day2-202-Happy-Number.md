@@ -11,13 +11,11 @@ class Solution:
                 return False
             else:
                 existed.add(n)
-                print(n)
                 next_n = 0
                 while n:
                     next_n += (n%10)**2
                     n = n // 10
                 n = next_n
         return True
-                
 ```
 
